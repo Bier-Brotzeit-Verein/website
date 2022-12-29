@@ -1,6 +1,13 @@
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#ecbd00 1px, #fcf7ee 1px);
+    background-size: 50px 50px;
+}
+
 .center {
     top: 35%;
     left: 50%;
@@ -30,6 +37,8 @@
     border: 1px solid black;
     border-radius: 5px;
     padding: 6px 15px 7px 16px;
+    background-color: white;
+    opacity: 1;
 }
 
 .impressum-link {
